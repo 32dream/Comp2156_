@@ -1,13 +1,50 @@
 {
-  "name": "comp2156_",
-  "version": "1.0.0",
-  "description": "lab 4",
+  "name": "Comp2156",
+  "version": "0.1.0",
+  "description": "lab 5",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\"",
-    "ci": "echo \"Error No ci configured\""
+  "private": true,
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals ": "^2.1.4",
+    "travis": "^0.1.1",
+    "yarn": "^1.13.0"
   },
-  "keywords": [],
-  "author": "JOY",
-  "license": "ISC"
+  
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "echo \"Warning: No tests created yet.\"",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/32dream/Comp2156_.git"
+  },
+ 
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+
 }
+
