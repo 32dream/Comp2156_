@@ -1,19 +1,10 @@
 {
-  "name": "Comp2156",
-  "version": "0.1.0",
-  "description": "lab 5",
+  "name": "comp2156",
+  "version": "1.0.0",
+  "description": "comp2156 lab exercise",
   "main": "index.js",
-  "private": true,
-  "dependencies": {
-    "gh-pages": "^2.0.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "travis": "^0.1.1",
-    "yarn": "^1.13.0"
-  },
-    "scripts": {
+  "homepage": "https://32dream.github.io/COMP2156_/",
+  "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
@@ -21,29 +12,27 @@
     "test": "echo \"Warning: No tests created yet.\"",
     "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/32dream/Comp2156_.git"
+  "keywords": [],
+  "author": "JOY CHAN",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "travis": "^0.1.1",
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.13.0"
   },
- 
   "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "react-scripts": "^5.0.1"
   }
-
 }
-
